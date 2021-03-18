@@ -6,17 +6,14 @@ As projections can be described by linear transformation using homographic matri
 
 So, by getting a background image and a texture as below:
 
-|  Background | Texture  |
-|:-:|:-:|
-|  <img src="assets/guernica.jpeg" width="400" height="600" /> | <img src="assets/homer.jpeg"  width="400" height="600" />  |
+![alt text](assets/comparing.png)
 
 After running the code, we have:
 
-|  Projection result |
-|:-:|
-|  <img src="results/homer_in_guernica.jpeg" width="400" height="600" /> |
+![alt text](assets/final.png)
 
-Also, we developed the code using Decorator design pattern if further tools were needed in other school activities then we could reuse components.
+Also, we developed the code using a Decorator design pattern if further related tools were needed in other school activities then we could reuse components.
+
 
 ## Run
 

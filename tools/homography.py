@@ -90,7 +90,6 @@ def projection(backgroundPath, texturePath, coordinates):
     texture_title = os.path.splitext(texturePath)[0].split("/")[1]
     background_title = os.path.splitext(backgroundPath)[0].split("/")[1]
 
-    # resultPath = "results/"+texturePath.split("/")[1]+'in'+backgroundPath.split("/")[1]
     resultPath = "results/" + texture_title + "_in_" + background_title + ".jpeg"
     print("Projection saved in " + resultPath + "\n")
     background.save(resultPath)

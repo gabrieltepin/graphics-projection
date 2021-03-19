@@ -73,10 +73,10 @@ def projection(backgroundPath, texturePath, coordinates):
     # iterating over background image pixels
     for x_background in range(background_width):
         for y_background in range(background_height):
-            background_coordinate = (x_background, y_background, 1) # RP2
+            background_coordinate = (x_background, y_background, 1) 
 
             # associated coordinates in texture
-            texture_coordinate = np.dot(tranformation, background_coordinate) # RP2
+            texture_coordinate = np.dot(tranformation, background_coordinate) 
             x_texture = texture_coordinate[0]/texture_coordinate[2]
             y_texture = texture_coordinate[1]/texture_coordinate[2] 
 
